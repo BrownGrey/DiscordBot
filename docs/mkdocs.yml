@@ -1,0 +1,15 @@
+site_name: DBD - Documentation 
+site_url: https://dbd.lachlan-dev.com/
+theme:
+  favicon: assets/images/favicon.png
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: slate
+nav:
+    - Home: 'index.md'
+    - Installation: 'installation/basic.md'
+    - Updating: 'update.md'
+    - Creating Plugins: 'plugins.md'
+    - Creating Themes: 'themes.md'
+plugins: []
