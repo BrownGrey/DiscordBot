@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/96381266/193395006-9c9a5cd3-30b2-44fa-ba51-2f0209004055.png" width="200">
+<img src="https://distok.top/stickers/749043879713701898/749049128012742676.gif" width="200">
 <p>
 
 <a href="https://github.com/BrownGrey/DiscordBot/graphs/Stars" alt="Stars">
