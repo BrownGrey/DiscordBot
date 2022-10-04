@@ -1,0 +1,75 @@
+
+direct_message_settings:
+  individual_delay: 60
+  rate_limit_delay: 650
+  offset: 100
+  max_dms_per_token: 0
+  skip_completed: true
+  call: false
+  remove_dead_tokens: true 
+  remove_completed_members: true 
+  stop_dead_tokens: true 
+  check_mutual: false
+  friend_before_DM: false
+  online_tokens: false
+  receive_messages: false
+  skip_failed: false
+  block_after_dm: false
+  close_dm_after_message: false
+  multiple_message: false
+  delay_between_multiple_messages: 10
+
+proxy_settings:
+  proxy_from_file: true
+  proxy_for_captcha: true
+  use_proxy_for_gateway: false
+  timeout: 60
+
+scraper_settings:
+  scraper_delay: 3000
+  scrape_usernames: false
+  scrape_avatars: false
+  query_brute_extra_chars: ""
+
+captcha_settings:
+  captcha_api_key: ""
+  captcha_api: "invisifox.com"
+  max_captcha_wait: 60
+  max_captcha_retry_dm: 0
+  max_captcha_retry_invite: 3
+
+other_settings: 
+  disable_keep_alives: false
+  constant_cookies: true
+  censor_token: false
+  logs: false
+  gateway_status: 4
+  ja3: "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,0-23-65281-10-11-35-16-5-13-18-51-45-43-27-17513,29-23-24,0"
+  useragent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+  x_super_properties: "eyJvcyI6Ik1hYyBPUyBYIiwiYnJvd3NlciI6IkNocm9tZSIsImRldmljZSI6IiIsInN5c3RlbV9sb2NhbGUiOiJlbi1HQiIsImJyb3dzZXJfdXNlcl9hZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDQuMC4wLjAgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXJfdmVyc2lvbiI6IjEwNC4wLjAuMCIsIm9zX3ZlcnNpb24iOiIxMC4xNS43IiwicmVmZXJyZXIiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyIsInJlZmVycmluZ19kb21haW4iOiJ3d3cuZ29vZ2xlLmNvbSIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJyZWZlcnJlcl9jdXJyZW50IjoiIiwicmVmZXJyaW5nX2RvbWFpbl9jdXJyZW50IjoiIiwicmVsZWFzZV9jaGFubmVsIjoic3RhYmxlIiwiY2xpZW50X2J1aWxkX251bWJlciI6MTQwNTc1LCJjbGllbnRfZXZlbnRfc291cmNlIjpudWxsfQ=="
+
+
+suspicion_avoidance:
+  random_individual_delay: 1
+  random_rate_limit_delay: 1
+  random_delay_before_dm: 1
+  typing: false
+  typing_variation: 250
+  typing_speed: 450
+  typing_base: 200
+
+dm_on_react:
+  observer_token: ""
+  change_name: true
+  change_avatar: true 
+  invite: ""
+  server_id: ""
+  channel_id: ""
+  message_id: ""
+  emoji: ""
+  skip_completed: true 
+  skip_failed: true 
+  leave_token_on_ratelimit: true 
+  rotate_tokens: true
+  max_anti_raid_queue: 20
+  max_dms_per_token: 10
