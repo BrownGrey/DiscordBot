@@ -39,8 +39,6 @@
     Create a nice discord bot just in a minitue
     <br />
     <br/>
-    <a href="https://websiteurl.live">View Demo</a>
-    ·
     <a href="https://github.com/BrownGrey/DiscordBot/issues">Report Bug</a>
     ·
     <a href="https://github.com/BrownGrey/DiscordBot/issues">Request Feature</a>
